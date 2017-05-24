@@ -1,0 +1,111 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-image: url('marcos.jpg');
+	background-repeat: no-repeat;
+	background-size:  cover;
+}
+#nav {
+    list-style-type: none;
+    padding-top: 0px;
+	padding-right: 125px;
+    overflow: hidden;
+    background-color: #2f2e2e;
+	height: 50px;
+}
+#nav-float {
+    float: right;
+}
+.a {
+    display: block;
+    color: white;
+    text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+    text-decoration: none;
+	font-family: Segoe UI Light;
+	font-size: 20px;
+}
+.active {
+    background-color: grey;
+	display: block;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+    text-decoration: none;
+	font-family: Segoe UI Light;
+	font-size: 20px;
+}
+li a:hover {
+    background-color: grey;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 2px 10px 4px 18px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+.fm {
+	width: 140px;
+	height: 140px;
+	background-size: cover;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 100%;
+}
+#fm {
+	margin-left: 45%;
+	margin-top: 70px;
+}
+hr {
+	width: 1150px;
+	border-top: 1px solid #efeded;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-left: 0px;
+}
+.name {	
+	font-family: Segoe UI;
+	font-size: 35px;
+	color: #fffcfc;
+	text-align: center;
+}
+.tag {
+	font-family: Segoe UI;
+	font-size: 15px;
+	color: #fffcfc;
+	text-align: center;
+}
+#gallery {
+	padding-left: 20px;
+}
+#facts {
+	text-align: left;
+	font-family: Segoe UI Light;
+	color: #ffffff;
+	margin-left: 20%;
+	margin-top: 17%;
+	margin-bottom: 5%;
+	font-size: 20px;
+}
+div > h2 {
+	margin-left: -10%;
+}
