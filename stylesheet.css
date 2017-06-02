@@ -6,40 +6,41 @@ body {
 	background-image: url('marcos.jpg');
 	background-repeat: no-repeat;
 	background-size:  cover;
+	background-attachment: fixed;
 }
 #nav {
-    list-style-type: none;
-    padding-top: 0px;
+   	list-style-type: none;
+    	padding-top: 0px;
 	padding-right: 125px;
-    overflow: hidden;
-    background-color: #2f2e2e;
+   	overflow: hidden;
+   	background-color: #2f2e2e;
 	height: 50px;
-}
+}	
 #nav-float {
     float: right;
 }
 .a {
-    display: block;
-    color: white;
-    text-align: center;
+    	display: block;
+    	color: white;
+   	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 15px;
 	padding-left: 15px;
 	padding-right: 15px;
-    text-decoration: none;
+   	text-decoration: none;
 	font-family: Segoe UI Light;
 	font-size: 20px;
 }
 .active {
-    background-color: grey;
+    	background-color: grey;
 	display: block;
-    color: white;
-    text-align: center;
-    padding-top: 10px;
+   	color: white;
+   	text-align: center;
+   	padding-top: 10px;
 	padding-bottom: 15px;
 	padding-right: 15px;
 	padding-left: 15px;
-    text-decoration: none;
+   	text-decoration: none;
 	font-family: Segoe UI Light;
 	font-size: 20px;
 }
